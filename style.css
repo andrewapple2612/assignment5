@@ -17,7 +17,7 @@ section {
 }
 
 main {
-  
+
 }
 
 aside {
@@ -44,3 +44,49 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+html{
+  font-size: 10px;
+  font-family: 'Inconsolata', monospace;
+}
+
+h1{
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  font-size: 5rem;
+  letter-spacing: 2px;
+}
+
+p{
+  text-indent: 20px;
+  line-height: 25px;
+}
+ul{
+  line-height: 25px;
+}
+ol {
+  line-height: 25px;
+}
+h2{
+  font-family: 'Noto Serif', serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  }
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+aside{
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: blue;
+}
